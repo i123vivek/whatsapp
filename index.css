@@ -1,0 +1,95 @@
+.title_top{
+	display: flex;
+	flex-direction: row;
+}
+html,
+body,
+div,
+span {
+  height: 100%;
+  width: 100%;
+ 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("wbg.jpg") no-repeat fixed center;
+  background-size: cover;
+}
+.media {
+  padding: 0 ;
+  margin: 0 ;
+  overflow: hidden;
+  border: 1px solid #f7f7f7;
+  height: calc(100% - 120px);
+  display: flex;
+}
+
+.media-body {
+  position: relative;
+  padding: 10px ;
+  border-bottom: 1px solid #f7f7f7;
+  height: 72px;
+  margin: 0 ;
+  cursor: pointer;
+}
+
+.media-body:hover {
+  background-color: #f2f2f2;
+}
+
+.mr-3 {
+  text-align: center;
+  padding: 0 ;
+}
+
+.media img {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+
+.media-main {
+  padding: 0 ;
+  display: flex;
+}
+
+
+
+.media-name {
+  padding: 0;
+}
+
+.name {
+  font-size: 100%;
+  font-weight: bold;
+  padding: 1%;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #000;
+}
+
+.media-time {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.time {
+  text-align: right;
+  font-size: 12px;
+  padding: 0;
+  
+}
+.row{
+	display: flex;
+	flex-direction: row;
+}
+.media-message{
+	display: flex;
+	
+	flex-direction: row;
+}
